@@ -5,5 +5,9 @@ attr_reader :name, :sound
 		@sound = "Meow!"
 	end
 
+	def get_sound()
+		"I am #{name} and my sound is #{sound}"
+	end
 
-end
+end 
+
